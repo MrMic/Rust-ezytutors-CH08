@@ -5,5 +5,3 @@ edition = "2021"
 
 [workspace]
 members = ["tutor-web-service", "tutor-web-app-ssr"]
-
-[dependencies]
