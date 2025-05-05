@@ -3,12 +3,12 @@ mod iter5;
 use std::env;
 
 use actix_web::{
-    App, HttpServer,
     web::{self, Data},
+    App, HttpServer,
 };
 use dotenv::dotenv;
 use iter5::{routes::app_config, state::AppState};
-use sqlx::PgPool;
+use sqlx::postgres::PgPool;
 use tera::Tera;
 
 #[actix_web::main]
