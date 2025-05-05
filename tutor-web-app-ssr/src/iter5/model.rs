@@ -6,7 +6,7 @@ pub struct TutorRegisterForm {
     pub password: String,
     pub confirmation: String,
     pub name: String,
-    pub image_url: String,
+    pub imageurl: String,
     pub profile: String,
 }
 
@@ -22,5 +22,5 @@ pub struct TutorResponse {
 pub struct User {
     pub username: String,
     pub tutor_id: Option<i32>,
-    pub password: String,
+    pub user_password: String,
 }
